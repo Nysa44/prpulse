@@ -56,9 +56,6 @@ The application ranks potential journalists and explains the reasoning behind ea
 
 
 ## Architecture
-
-
-```text
 ┌─────────────────────────┐
 │     Next.js Frontend    │
 │                         │
@@ -82,6 +79,7 @@ The application ranks potential journalists and explains the reasoning behind ea
 │                         │
 │ Relevance Score + Reason│
 └─────────────────────────┘
+
 🛠️ Tech Stack
 Frontend
 Next.js
@@ -98,7 +96,8 @@ Git
 GitHub
 VS Code
 Swagger / OpenAPI
-📁 Project Structure
+
+## Project Structure
 prpulse/
 │
 ├── backend/
@@ -145,8 +144,10 @@ Response
     }
   ]
 }
-Getting Started
-Prerequisites
+
+## Getting Started
+
+## Prerequisites
 Python 3.10+
 Node.js
 npm
@@ -161,7 +162,7 @@ python -m venv venv
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 
-Backend:
+## Backend:
 
 http://localhost:8000
 
@@ -176,7 +177,7 @@ cd frontend
 npm install
 npm run dev
 
-Frontend:
+## Frontend:
 
 http://localhost:3000
 How It Works
@@ -187,7 +188,8 @@ The pitch is evaluated against journalist coverage areas.
 Potential journalist matches are ranked by relevance.
 The API returns journalist information and match explanations.
 The frontend displays the recommendations in a ranked interface.
-Use Case
+
+## Use Case
 
 PRPulse can help startups, founders, and PR teams quickly identify journalists who may be relevant to a product announcement.
 
@@ -205,7 +207,8 @@ Pitch history and saved analyses
 User authentication
 Analytics dashboard
 Human-in-the-loop approval workflow
-Project Status
+
+## Project Status
 
 Prototype / MVP
 
@@ -213,10 +216,11 @@ PRPulse currently demonstrates an end-to-end workflow from pitch submission to j
 
 The project is designed to be extended with real-world journalist data and more advanced AI-powered matching capabilities.
 
-👩‍💻 Author
+## Author
 
 Nysa Khan
 
 GitHub: https://github.com/Nysa44
+
 
 Built as an AI-assisted PR research and journalist discovery prototype.
