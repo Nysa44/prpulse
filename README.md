@@ -56,6 +56,7 @@ The application ranks potential journalists and explains the reasoning behind ea
 
 
 ## Architecture
+```text
 ┌─────────────────────────┐
 │     Next.js Frontend    │
 │                         │
@@ -80,7 +81,7 @@ The application ranks potential journalists and explains the reasoning behind ea
 │ Relevance Score + Reason│
 └─────────────────────────┘
 
-🛠️ Tech Stack
+## Tech Stack
 Frontend
 Next.js
 React
