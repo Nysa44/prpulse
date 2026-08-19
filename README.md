@@ -54,9 +54,7 @@ Users submit a pitch, and PRPulse analyzes it to return relevant journalist reco
 
 The application ranks potential journalists and explains the reasoning behind each recommendation.
 
-
-## Architecture
-```text
+🏗️ Architecture
 ┌─────────────────────────┐
 │     Next.js Frontend    │
 │                         │
@@ -81,7 +79,7 @@ The application ranks potential journalists and explains the reasoning behind ea
 │ Relevance Score + Reason│
 └─────────────────────────┘
 
-## Tech Stack
+🛠️ Tech Stack
 Frontend
 Next.js
 React
@@ -98,9 +96,8 @@ GitHub
 VS Code
 Swagger / OpenAPI
 
-## Project Structure
+📁 Project Structure
 prpulse/
-│
 ├── backend/
 │   ├── main.py
 │   └── requirements.txt
@@ -116,7 +113,6 @@ prpulse/
 │   └── tsconfig.json
 │
 ├── data/
-│
 └── .gitignore
 🔌 API
 GET /
@@ -145,7 +141,6 @@ Response
     }
   ]
 }
-
 ## Getting Started
 
 ## Prerequisites
